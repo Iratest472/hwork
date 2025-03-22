@@ -10,7 +10,7 @@ time.sleep(2)
 search_box = driver.find_element(By.CSS_SELECTOR, 'input[type="number"]')
 
 search_box.send_keys("1000")
-time.sleep(2)
+time.sleep(3)
 search_box.clear()
 time.sleep(2)
 search_box.send_keys("999")
