@@ -20,5 +20,5 @@ time.sleep(2)
 
 driver.find_element(By.CSS_SELECTOR, '.fa-sign-in').click()
 
-time.sleep(3)
+time.sleep(2)
 driver.quit()

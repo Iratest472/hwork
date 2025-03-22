@@ -13,4 +13,4 @@ for _ in range(5):
 
 delete_buttons = driver.find_elements(
     By.CSS_SELECTOR, 'button[onclick="deleteElement()"]')
-print(f"Количество кнопок 'Delete'- {len(delete_buttons)}")
+print(f"Количество кнопок 'Delete': {len(delete_buttons)}")
