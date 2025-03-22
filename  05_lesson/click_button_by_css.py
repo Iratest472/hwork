@@ -10,6 +10,6 @@ time.sleep(2)
 
 driver.find_element(By.CSS_SELECTOR, '.btn-primary').click()
 
-time.sleep(2)
+time.sleep(3)
 
 driver.quit()

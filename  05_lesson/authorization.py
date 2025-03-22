@@ -16,7 +16,7 @@ password_search = driver.find_element(
     By.CSS_SELECTOR, 'input[name="password"]')
 password_search.send_keys("SuperSecretPassword!")
 
-time.sleep(2)
+time.sleep(3)
 
 driver.find_element(By.CSS_SELECTOR, '.fa-sign-in').click()
 

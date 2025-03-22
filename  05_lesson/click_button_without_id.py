@@ -14,6 +14,6 @@ def open_page_and_click_blue_button():
         By.XPATH, '//button[contains(text(), "button")]')
     blue_button.click()
 
-    time.sleep(3)
+    time.sleep(2)
 
     driver.quit()
